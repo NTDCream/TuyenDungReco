@@ -343,8 +343,13 @@ img {
 }
 
 @keyframes shimmer-stats {
-  0% { background-position: 200% 0; }
-  100% { background-position: -200% 0; }
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
 }
 
 .about-stat-item {
@@ -499,7 +504,7 @@ img {
 }
 
 .nav-logo {
-  height: 48px;
+  height: 160px;
   object-fit: contain;
 }
 
@@ -539,7 +544,7 @@ img {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  padding-top: 80px;
+  padding-top: 90px;
   overflow: hidden;
   background: var(--bg-dark);
 }
@@ -950,7 +955,9 @@ img {
 }
 
 @keyframes spin {
-  to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 /* --- JD & BENEFITS --- */
@@ -1197,8 +1204,8 @@ img {
 }
 
 .footer-logo {
-  height: 40px;
-  margin-bottom: 0.5rem;
+  width: 160px;
+  margin-bottom: 0;
 }
 
 .footer-brand p {
