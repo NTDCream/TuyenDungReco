@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/logo reco.png" />
+    <!-- Replace the Vite svg with RECO logo in actual deployment -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tuyển Dụng Môi Giới BĐS - Nhà Ở Ngay RECO</title>
+    <meta name="description"
+        content="Cơ hội đột phá thu nhập 100-200tr/giao dịch. Môi trường làm việc chuyên nghiệp, đào tạo thực chiến từ A-Z. Cùng đội ngũ NHÀ Ở NGAY RECO." />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&family=Inter:wght@400;500;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <header class="header">
+        <nav class="container nav">
+            <a href="#" class="logo">
+                <img src="./logo reco.png" alt="RECO Logo" class="nav-logo">
+            </a>
+            <ul class="nav-links">
+                <li><a href="#about">Về Chúng Tôi</a></li>
+                <li><a href="#compare">So Sánh</a></li>
+                <li><a href="#roadmap">Lộ Trình</a></li>
+                <li><a href="#jd">Tuyển Dụng</a></li>
+                <li><a href="#apply" class="btn btn-primary nav-btn">Ứng Tuyển</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-bg"></div>
+            <div class="container hero-content">
+                <span class="badge badge-glow animate-fade-in">Tuyển dụng 2026</span>
+                <h1 class="hero-title animate-slide-up">TRỞ THÀNH CHUYÊN GIA <br> <span class="text-gradient">BẤT ĐỘNG
+                        SẢN TẠI RECO</span></h1>
+                <p class="hero-subtitle animate-slide-up delay-1">
+                    Đột phá thu nhập 100 - 200 Triệu+/vụ. <br>Lương cứng ổn định • Hoa hồng 2 - 3.5% • Đào tạo thực
+                    chiến A-Z.
+                </p>
+                <div class="hero-cta animate-slide-up delay-2">
+                    <a href="#apply" class="btn btn-primary btn-large glow-effect">Gia Nhập Ngay - Miễn Phí</a>
+                    <a href="#compare" class="btn btn-outline btn-large">Tìm Hiểu Thêm &rarr;</a>
+                </div>
+                <!-- Mini Stats in Hero -->
+                <div class="hero-stats animate-fade-in delay-3">
+                    <div class="stat-mini">
+                        <strong class="count-up" data-target="100">0</strong><span>Tr+</span>
+                        <p>Thu nhập/tháng</p>
+                    </div>
+                    <div class="stat-mini">
+                        <strong class="count-up" data-target="80">0</strong><span>%</span>
+                        <p>Hỗ trợ Marketing</p>
+                    </div>
+                    <div class="stat-mini">
+                        <strong>A-Z</strong>
+                        <p>Bài bản - Miễn phí</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Pain Points Section -->
+        <section id="pain-points" class="section light-bg">
+            <div class="container text-center reveal">
+                <div class="section-header" style="margin-bottom: 3rem;">
+                    <h2 class="section-title"
+                        style="font-family: var(--font-sans); font-weight: 800; font-size: clamp(2rem, 4vw, 3rem);">Bạn
+                        đang <span class="text-gradient"
+                            style="color: var(--danger); background: none; -webkit-text-fill-color: var(--danger);">mệt
+                            mỏi với hiện tại?</span></h2>
+                    <p class="section-desc">Hàng nghìn người cũng đang đối mặt với những vấn đề này. Bạn không đơn độc.
+                    </p>
+                </div>
+
+                <div class="pain-grid mt-4">
+                    <div class="pain-card">
+                        <div class="pain-icon-wrapper">
+                            <svg class="pain-icon" fill="none" stroke="var(--danger)" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3>Gò bó 8 tiếng mỗi ngày</h3>
+                        <p>Đi làm đúng giờ, về đúng giờ, cuộc sống xoay quanh KPI và áp lực công việc.</p>
+                    </div>
+                    <div class="pain-card">
+                        <div class="pain-icon-wrapper">
+                            <span class="pain-icon"
+                                style="color: var(--danger); font-size: 1.25rem; font-weight: bold;">?</span>
+                        </div>
+                        <h3>Thiếu môi trường đào tạo bài bản</h3>
+                        <p>Muốn làm BĐS nhưng không có chương trình huấn luyện rõ ràng, không được kèm cặp thực chiến,
+                            tự mày mò nên chậm tiến và dễ bỏ cuộc.</p>
+                    </div>
+                    <div class="pain-card">
+                        <div class="pain-icon-wrapper">
+                            <svg class="pain-icon" fill="none" stroke="var(--danger)" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M13 17h8m0 0V9m0 8l-8-8-4 4-6-6"></path>
+                            </svg>
+                        </div>
+                        <h3>Thu nhập giậm chân tại chỗ</h3>
+                        <p>Lương cố định 8-15 triệu trong khi vật giá leo thang, không có cơ hội đột phá.</p>
+                    </div>
+                    <div class="pain-card">
+                        <div class="pain-icon-wrapper">
+                            <svg class="pain-icon" fill="none" stroke="var(--danger)" viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M10 14l2-2m0 0l2-2m-2 2l-2-2m2 2l2 2m7-2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                            </svg>
+                        </div>
+                        <h3>Không biết bắt đầu từ đâu</h3>
+                        <p>Thị trường biến động, không có mối quan hệ, không có mentor hướng dẫn.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trực Quan So Sánh -->
+
+        <section id="compare" class="section dark-section">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title">Lựa chọn nào cho <span class="text-gradient">Tương Lai Của Bạn?</span>
+                    </h2>
+                    <p class="section-desc">Không chỉ tuyển dụng, chúng tôi trang bị cho bạn mọi thứ để thay đổi cuộc
+                        đời và tự chủ tài chính.</p>
+                </div>
+
+                <div class="compare-grid reveal glass-panel">
+                    <!-- Làm thuê truyền thống -->
+                    <div class="compare-col traditional">
+                        <div class="compare-header">
+                            <div class="icon-box red-glow">🏢</div>
+                            <h3>Làm Thuê Truyền Thống</h3>
+                        </div>
+                        <ul class="compare-list">
+                            <li><span class="cross">✕</span> Thu nhập cố định 8 - 15 triệu/tháng</li>
+                            <li><span class="cross">✕</span> Làm việc gò bó 8 tiếng/ngày</li>
+                            <li><span class="cross">✕</span> Áp lực chỉ tiêu, stress liên tục</li>
+                            <li><span class="cross">✕</span> Tăng lương nhỏ giọt hàng năm</li>
+                            <li><span class="cross">✕</span> Phụ thuộc hoàn toàn vào sếp</li>
+                        </ul>
+                    </div>
+
+                    <!-- RECO -->
+                    <div class="compare-col reco">
+                        <div class="compare-header">
+                            <div class="icon-box gold-glow">🏆</div>
+                            <h3>Chiến Binh RECO</h3>
+                            <div class="reco-badge">Khuyên chọn</div>
+                        </div>
+                        <ul class="compare-list">
+                            <li><span class="check">✓</span> <strong>Thu nhập bùng nổ</strong> lên tới hàng trăm
+                                triệu/vụ</li>
+                            <li><span class="check">✓</span> Lương cứng + Hoa hồng cực cao (2 - 3.5%)</li>
+                            <li><span class="check">✓</span> <strong>Đào tạo A-Z</strong> về kỹ năng sales, dự án &
+                                marketing</li>
+                            <li><span class="check">✓</span> <strong>Hỗ trợ 80%</strong> chi phí chạy quảng cáo
+                                (Marketing)</li>
+                            <li><span class="check">✓</span> Môi trường trẻ trung, sếp và anh em hỗ trợ hết mình</li>
+                        </ul>
+                        <div class="mt-4 text-center">
+                            <a href="#apply" class="btn btn-primary pulse-btn">Thay đổi ngay hôm nay</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lộ Trình Thăng Tiến -->
+        <section id="roadmap" class="section light-bg">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title">Lộ Trình Thăng Tiến <span class="text-gradient">Minh Bạch</span></h2>
+                    <p class="section-desc">Tại NHÀ Ở NGAY RECO, nỗ lực của bạn luôn được ghi nhận rõ ràng sau 6 tháng -
+                        1 năm.</p>
+                </div>
+
+                <div class="roadmap-timeline">
+                    <!-- Step 1 -->
+                    <div class="roadmap-item reveal">
+                        <div class="roadmap-icon">1</div>
+                        <div class="roadmap-content glass-card outline">
+                            <h3>Ứng Viên Tinh Anh</h3>
+                            <p>Không cần kinh nghiệm. Được đào tạo kỹ năng thực chiến từ con số 0. Bắt đầu tìm kiếm
+                                khách hàng và làm quen với giỏ hàng VIP.</p>
+                        </div>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="roadmap-item reveal">
+                        <div class="roadmap-icon">2</div>
+                        <div class="roadmap-content glass-card outline">
+                            <h3>Chuyên Viên Giỏi</h3>
+                            <p>Tự tin chốt deal, tạo ra những giao dịch 100-200tr đầu tiên. Xây dựng thương hiệu cá nhân
+                                và danh sách khách hàng trung thành.</p>
+                        </div>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="roadmap-item reveal">
+                        <div class="roadmap-icon">3</div>
+                        <div class="roadmap-content glass-card outline">
+                            <h3>Trưởng Nhóm / Trưởng Phòng</h3>
+                            <p>Sau 6-12 tháng. Đào tạo, dẫn dắt đội ngũ của riêng mình. Nhận thưởng hoa hồng quản lý vô
+                                cùng hấp dẫn.</p>
+                        </div>
+                    </div>
+                    <!-- Step 4 -->
+                    <div class="roadmap-item reveal">
+                        <div class="roadmap-icon">4</div>
+                        <div class="roadmap-content glass-card active-card">
+                            <h3>Giám Đốc Khối</h3>
+                            <p>Quản lý chiến lược, điều hành các hệ thống sàn vệ tinh. Tự chủ tài chính hoàn toàn và
+                                đứng tên cổ đông chiến lược của công ty.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dấu ấn RECO / Hình ảnh thực tế -->
+        <section class="section">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title">Thành Quả <span class="text-gradient">Đáng Tự Hào</span></h2>
+                    <p class="section-desc">Hàng tỷ đồng tiền thưởng và hoa hồng được trao tay đội ngũ chiến binh mỗi
+                        tháng.</p>
+                </div>
+
+                <div class="gallery scroll-reveal">
+                    <div class="gallery-item"><img src="./Images thuong va hoa hong/anh thuong.jpg" alt="Thưởng nóng">
+                    </div>
+                    <div class="gallery-item"><img src="./Images thuong va hoa hong/anh thuong 5.jpg"
+                            alt="Nhận hoa hồng"></div>
+                    <div class="gallery-item"><img src="./Images thuong va hoa hong/anh thuong 3.jpg"
+                            alt="Vinh danh tháng"></div>
+                    <div class="gallery-item"><img src="./Images thuong va hoa hong/anh thuong 4.jpg" alt="Kick off">
+                    </div>
+                    <div class="gallery-item"><img src="./Images thuong va hoa hong/anh thuong 2.jpg"
+                            alt="Làm việc nhóm"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chi Tiết Công Việc -->
+        <section id="jd" class="section dark-section bg-pattern">
+            <div class="container content-grid">
+                <div class="jd-box glass-panel reveal">
+                    <h3 class="box-title">💼 Mô Tả Công Việc</h3>
+                    <ul class="styled-list">
+                        <li><strong>Tìm kiếm, tư vấn</strong> khách hàng có nhu cầu mua các dự án độc quyền ở vị trí đắc
+                            địa.</li>
+                        <li><strong>Chăm sóc, hỗ trợ</strong> khách hàng trong suốt quá trình giao dịch.</li>
+                        <li><strong>Dẫn khách</strong> đi xem nhà thực tế.</li>
+                        <li><strong>Phối hợp</strong> với đội nhóm triển khai kế hoạch bán hàng.</li>
+                    </ul>
+
+                    <h3 class="box-title mt-6">🎯 Yêu Cầu Chân Dung</h3>
+                    <ul class="styled-list">
+                        <li>Độ tuổi từ 20, tốt nghiệp từ Trung cấp trở lên.</li>
+                        <li><strong>Không yêu cầu kinh nghiệm</strong>, bạn sẽ được cầm tay chỉ việc.</li>
+                        <li>Tinh thần cầu tiến, đam mê kinh doanh làm giàu.</li>
+                        <li>Giao tiếp tự tin, ngoại hình ưa nhìn là lợi thế.</li>
+                    </ul>
+                </div>
+
+                <div class="jd-box glass-panel accent-panel reveal delay-1">
+                    <h3 class="box-title text-gradient">🔥 Quyền Lợi Cực Khủng</h3>
+                    <div class="benefits-grid">
+                        <div class="benefit-item">
+                            <span class="icon">💎</span>
+                            <h4>Thu Nhập Không Giới Hạn</h4>
+                            <p>Lương cứng + Hoa hồng 2-3.5% (Trung bình 100-200tr/deal) + Thưởng nóng.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="icon">🚀</span>
+                            <h4>Marketing Chuyên Nghiệp</h4>
+                            <p>Hỗ trợ lên tới 80% chi phí chạy quảng cáo tìm khách.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="icon">🆓</span>
+                            <h4>0đ Chi Phí Đầu Vào</h4>
+                            <p>Không phải đóng bất cứ khoản phí nào khi tham gia.</p>
+                        </div>
+                        <div class="benefit-item">
+                            <span class="icon">🏖️</span>
+                            <h4>Phúc Lợi Dồi Dào</h4>
+                            <p>Du lịch, teambuilding, kick-off cháy máy cùng đồng đội hàng tháng.</p>
+                        </div>
+                    </div>
+                    <div class="info-tag mt-6">
+                        📍 Làm việc tại: 19 Vũ Trọng Phụng, Thanh Xuân, HN <br>
+                        ⏱ Thứ 2 - Thứ 7 (8h30 - 17h30)
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Giỏ Hàng Đại Dự Án -->
+        <section class="section light-bg">
+            <div class="container text-center reveal">
+                <h2 class="section-title">Rổ Hàng <span class="text-gradient">Độc Quyền</span> Cực Phẩm</h2>
+                <p class="section-desc">Sản phẩm chất lượng cao, tính thanh khoản tốt, dễ dàng chốt deal.</p>
+
+                <div class="projects">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./Images du an/Chung cư Celestine Westlake.jpg" alt="Celestine Westlake">
+                            <div class="badge-overlay">HOT TÂY HỒ</div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Celestine Westlake</h4>
+                            <p>Căn hộ hạng sang mặt hồ.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./Images du an/Shophouse Palmy Biztown.jpg" alt="Palmy Biztown">
+                            <div class="badge-overlay">SẴN SÀNG</div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Shophouse Palmy Biztown</h4>
+                            <p>Kinh doanh dòng tiền đỉnh cao.</p>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="./Images du an/Chung cư Sailing Nha Trang.jpg" alt="Sailing Club Nha Trang">
+                            <div class="badge-overlay">NGHỈ DƯỠNG</div>
+                        </div>
+                        <div class="project-info">
+                            <h4>Sailing Club Nha Trang</h4>
+                            <p>Biểu tượng mặt biển Nha Trang.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ / Q&A Section -->
+        <section id="faq" class="section dark-section">
+            <div class="container">
+                <div class="section-header text-center reveal">
+                    <h2 class="section-title">Giải Đáp <span class="text-gradient">Mọi Thắc Mắc</span></h2>
+                    <p class="section-desc">Những câu hỏi thường gặp nhất của các ứng viên trước khi gia nhập vào đại
+                        gia đình RECO.</p>
+                </div>
+
+                <div class="faq-container reveal">
+                    <div class="faq-item">
+                        <button class="faq-question">1. Tôi chưa có kinh nghiệm, có làm được không? <span
+                                class="faq-icon">+</span></button>
+                        <div class="faq-answer">
+                            <p><strong>Có.</strong> 80% thành viên bắt đầu từ số 0.<br>Bạn được hướng dẫn quy trình từ
+                                tìm khách – dẫn xem – xử lý phản đối – chốt deal.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">2. Tôi có thể làm part-time không? <span
+                                class="faq-icon">+</span></button>
+                        <div class="faq-answer">
+                            <p>Bạn làm việc tự do, nhưng thu nhập sẽ phụ thuộc vào thời gian bạn dành cho công việc.
+                                Muốn thu nhập cao, bạn cần coi đây là nghề nghiêm túc, không phải thử cho vui.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">3. Tôi có được hỗ trợ sau khi đào tạo không? <span
+                                class="faq-icon">+</span></button>
+                        <div class="faq-answer">
+                            <p><strong>Có.</strong> Bạn được vào nhóm nội bộ, cập nhật kiến thức và hỗ trợ xử lý tình
+                                huống thực tế.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">4. Hoa hồng được nhận khi nào? <span
+                                class="faq-icon">+</span></button>
+                        <div class="faq-answer">
+                            <p>Hoa hồng anh/chị sẽ nhận vào kỳ giải ngân lương vào ngày mùng 10 hàng tháng, còn thưởng
+                                có thể sớm hơn.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">5. Tôi lớn tuổi rồi có làm được không? <span
+                                class="faq-icon">+</span></button>
+                        <div class="faq-answer">
+                            <p>Tuổi không quan trọng. Kỹ năng giao tiếp và sự kiên trì mới quyết định thu nhập.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">6. Tôi sẽ làm việc ở đâu? <span class="faq-icon">+</span></button>
+                        <div class="faq-answer">
+                            <p>Bạn có thể lựa chọn làm việc tại một trong các trụ sở của Nhà Ở Ngay Reco:</p>
+                            <ul class="styled-list mt-2" style="padding-bottom: 1.5rem; padding-left: 2.5rem;">
+                                <li><strong>Hội sở chính Hà Nội:</strong> Toà nhà 19 Vũ Trọng Phụng, Thanh Xuân, Hà Nội.
+                                </li>
+                                <li><strong>Văn phòng Nha Trang:</strong> Số 16 Phước Long, Nam Nha Trang, Nha Trang.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Form Ứng Tuyển -->
+        <section id="apply" class="section application-section">
+            <div class="container content-grid align-center">
+                <div class="contact-info reveal">
+                    <h2 class="section-title">Bước Ngoặt Sự Nghiệp <br> <span class="text-gradient">Bắt Đầu Từ
+                            Đây</span></h2>
+                    <p class="section-desc mt-4">"Ai cũng có một lần bắt đầu — biết đâu lần này là bước ngoặt thay đổi
+                        cuộc đời của bạn!"</p>
+
+                    <div class="contact-cards mt-6">
+                        <div class="contact-card">
+                            <div class="icon">📞</div>
+                            <div>
+                                <h5>Hotline/Zalo</h5>
+                                <p><strong>0943.522.837</strong> (Ms. Quỳnh Mai)</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="icon">✉️</div>
+                            <div>
+                                <h5>Email</h5>
+                                <p>maiptq@recogroup.vn</p>
+                            </div>
+                        </div>
+                        <div class="contact-card">
+                            <div class="icon">📍</div>
+                            <div>
+                                <h5>Địa chỉ</h5>
+                                <p>19 Vũ Trọng Phụng, Thanh Xuân, Hà Nội</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="form-wrapper glass-panel reveal delay-1">
+                    <h3>Form Ứng Tuyển Nhanh</h3>
+                    <p class="text-xs mb-4">Để lại thông tin, HR sẽ liên hệ bạn ngay trong 24h.</p>
+                    <form id="recruitment-form">
+                        <div class="input-group">
+                            <label for="fullname">Họ và tên *</label>
+                            <input type="text" id="fullname" name="fullname" placeholder="Nhập họ và tên..." required>
+                        </div>
+                        <div class="input-group">
+                            <label for="phone">Số điện thoại (Zalo) *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="Nhập số điện thoại..." required>
+                        </div>
+                        <div class="input-group">
+                            <label for="year">Năm sinh</label>
+                            <input type="number" id="year" name="year" placeholder="VD: 2000">
+                        </div>
+                        <div class="input-group">
+                            <label for="exp">Kinh nghiệm BĐS</label>
+                            <select id="exp" name="exp">
+                                <option value="none">Chưa có kinh nghiệm (Được đào tạo)</option>
+                                <option value="under1">Dưới 1 năm</option>
+                                <option value="over1">Trên 1 năm</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full pulse-btn mt-2">Gửi Thông Tin Ứng Tuyển
+                            🚀</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <img src="./logo reco.png" alt="RECO" class="footer-logo">
+                <p>Khẳng định vị thế - Dẫn đầu khu vực</p>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 NHÀ Ở NGAY RECO. All rights reserved.</p>
+                <p>Designed with ❤️ for anh Nhật Anh đẹp trai.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
