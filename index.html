@@ -79,10 +79,17 @@
         <!-- About / Giới Thiệu Công Ty RECO -->
         <section id="about" class="section about-section">
             <div class="container">
-                <!-- Accent decorative line -->
                 <div class="about-grid reveal">
-                    <!-- Left Column: Tagline & Badges -->
-                    <div class="about-left">
+                    <!-- Cột Trái: Hình ảnh đội ngũ nhân sự -->
+                    <div class="about-visual">
+                        <div class="about-image-wrapper">
+                            <img src="./Tổng quan.jpg" alt="Đội ngũ RECO" class="about-team-img">
+                            <div class="image-accent-border"></div>
+                        </div>
+                    </div>
+
+                    <!-- Cột Phải: Nội dung (Dời từ about-left sang) -->
+                    <div class="about-right-content">
                         <span class="about-label">VỀ CHÚNG TÔI</span>
                         <h2 class="about-heading">
                             CÔNG TY CỔ PHẦN <br>
@@ -90,7 +97,7 @@
                         </h2>
                         <p class="about-tagline">Kiến tạo điểm đến an cư — <br>Định hình giá trị thịnh vượng.</p>
 
-                        <div class="about-badges">
+                        <div class="about-badges-stack">
                             <div class="about-badge">
                                 <div class="about-badge-icon">
                                     <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="22" height="22">
@@ -99,9 +106,9 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <div>
-                                    <strong>Tập đoàn DXMB</strong>
-                                    <span>Trực thuộc Đất Xanh Miền Bắc</span>
+                                <div class="about-badge-text">
+                                    <strong>Trực thuộc DXMB</strong>
+                                    <span>Hệ sinh thái BĐS số 1 Miền Bắc</span>
                                 </div>
                             </div>
                             <div class="about-badge">
@@ -112,53 +119,15 @@
                                         </path>
                                     </svg>
                                 </div>
-                                <div>
+                                <div class="about-badge-text">
                                     <strong>Chi nhánh Then chốt</strong>
                                     <span>Đầu tiên trong hệ thống Nhà Ở Ngay</span>
                                 </div>
                             </div>
-                            <div class="about-badge">
-                                <div class="about-badge-icon">
-                                    <svg fill="none" stroke="currentColor" viewBox="0 0 24 24" width="22" height="22">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
-                                            d="M13 10V3L4 14h7v7l9-11h-7z"></path>
-                                    </svg>
-                                </div>
-                                <div>
-                                    <strong>An cư Thông minh</strong>
-                                    <span>Giải pháp toàn diện cho người Việt trẻ</span>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- Right Column: Description -->
-                    <div class="about-right">
-                        <div class="about-quote-mark">"</div>
-                        <div class="about-description">
-                            <p class="about-intro">
-                                Định vị không gian sống đẳng cấp, đồng hành cùng hành trình an cư của mọi thế hệ
-                                người Việt.
-                            </p>
-                            <p>
-                                Tại <strong>Nhà Ở Ngay RECO</strong>, chúng tôi tin rằng ngôi nhà không chỉ là bốn bức
-                                tường, mà là <em>nền tảng của mọi hạnh phúc</em>, là bệ phóng cho những giấc mơ và là
-                                di sản thực thụ cho tương lai.
-                            </p>
-                            <p>
-                                Tiền thân là chi nhánh con đầu tiên và then chốt trong hệ thống Nhà Ở Ngay – trực
-                                thuộc <strong>Tập đoàn Đất Xanh Miền Bắc (DXMB)</strong>, chúng tôi kế thừa sức mạnh
-                                nền tảng, uy tín và tầm nhìn của một doanh nghiệp hàng đầu.
-                            </p>
-                            <p>
-                                Tuy nhiên, sứ mệnh của chúng tôi còn vượt xa hơn thế: chúng tôi là <strong>người kiến
-                                    tạo và kết nối</strong>, biến những kỳ vọng về một tổ ấm lý tưởng thành hiện thực
-                                bền vững, mang đến <strong>giải pháp an cư toàn diện và thông minh</strong> cho người
-                                Việt trẻ hiện đại.
-                            </p>
                         </div>
                     </div>
                 </div>
+
 
                 <!-- Stats Row -->
                 <div class="about-stats reveal delay-1">
@@ -632,9 +601,29 @@
 
     <footer class="footer">
         <div class="container footer-content">
-            <div class="footer-brand">
-                <img src="./logo reco.png" alt="RECO" class="footer-logo">
-                <p>Khẳng định vị thế - Dẫn đầu khu vực</p>
+            <!-- Cột 1: Thương hiệu -->
+            <div class="footer-col footer-brand">
+                <img src="./Logo-NOV-RECO-doc.png" alt="RECO" class="footer-logo">
+                <p class="footer-tagline">Khẳng định vị thế - Dẫn đầu khu vực</p>
+            </div>
+
+            <!-- Cột 2: Điều hướng nhanh -->
+            <div class="footer-col footer-links">
+                <h4 class="footer-title">Khám phá</h4>
+                <ul>
+                    <li><a href="#about">Về chúng tôi</a></li>
+                    <li><a href="#compare">Lợi thế cạnh tranh</a></li>
+                    <li><a href="#roadmap">Lộ trình thăng tiến</a></li>
+                    <li><a href="#jd">Vị trí ứng tuyển</a></li>
+                </ul>
+            </div>
+
+            <!-- Cột 3: Liên hệ nhanh -->
+            <div class="footer-col footer-contact">
+                <h4 class="footer-title">Thông tin liên hệ</h4>
+                <p><i class="fas fa-map-marker-alt"></i> Trụ sở: 19 Vũ Trọng Phụng, Thanh Xuân, Hà Nội</p>
+                <p><i class="fas fa-phone-alt"></i> Hotline: 0943.522.837</p>
+                <p><i class="fas fa-envelope"></i> Email: tuyendung@recogroup.vn</p>
             </div>
         </div>
         <div class="footer-bottom">
@@ -644,10 +633,12 @@
         </div>
     </footer>
 
-    <script type="module" src="./main.js"></script>
+
+
+    <!-- <script type="module" src="./main.js"></script> -->
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <!-- <script src="./main.js"></script> -->
+    <script src="./main.js"></script>
 </body>
 
 </html>
